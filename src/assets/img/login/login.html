@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(./bg3x.png);
+        }
+
+        .logins {
+            background-color: aliceblue;
+            height: 300px;
+            width: 250px;
+            margin: 80px auto;
+            border-top-left-radius: 4%;
+            border-top-right-radius: 4%;
+            border-bottom-left-radius: 4%;
+            border-bottom-right-radius: 4%;
+        }
+
+        .img img {
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 15px;
+        }
+
+        .phone input {
+            border: none;
+            border-bottom: 1px solid lightgray;
+            height: 30px;
+            background: url(./man2x.png) no-repeat;
+            text-align: center;
+            line-height: 30px;
+            background-size: 15%;
+            width: 200px;
+
+        }
+
+        .phone,
+        .passworld {
+            margin-left: 6%;
+        }
+
+        .passworld input {
+            /* display:inline-block; */
+            border: none;
+            border-bottom: 1px solid lightgray;
+            background: url(./man3x.png) no-repeat;
+            text-align: center;
+            line-height: 30px;
+            background-size: 16%;
+            width: 200px;
+            margin-right: 3px;
+        }
+
+        .forget {
+            font-size: 12px;
+            margin-right: 10px;
+            margin-top: 8px;
+            float: right
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .login {
+            margin-top: 60px;
+            text-align: center;
+            margin-right: 3px;
+
+
+        }
+
+        .login input {
+            border: none;
+            width: 200px;
+            background-color: rgb(11, 90, 198);
+            height: 30px;
+            line-height: 30px;
+            margin-left: 0px;
+            border-top-left-radius: 4%;
+            border-top-right-radius: 4%;
+            border-bottom-left-radius: 4%;
+            border-bottom-right-radius: 4%;
+        }
+
+        .noregister {
+            font-size: 12px;
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="logins">
+        <div class="img">
+            <img src="./2x.png" alt="">
+        </div>
+
+        <div class="phone">
+            <input type="text" placeholder=" 请输入手机号">
+        </div>
+        <div class="passworld">
+            <input type="text" placeholder="请输入密码">
+        </div>
+        <div class="forget">
+            <span><a href="">忘记密码?</a></span>
+        </div>
+
+        <div class="login">
+            <input type="button" value="登录">
+        </div>
+        <div class="noregister">
+            <span><a href="">没有账号？立即注册</a></span>
+        </div>
+    </div>
+</body>
+
+</html>
